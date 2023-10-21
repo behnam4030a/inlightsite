@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inlight</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <!-- --------------------------------------------- start header -->
+    <header>
+        <!---- header banner -->
+        <div class="header-banner" >
+            <a href="#">
+                <img class="w-100 d-block adv-top-header" src="./assets/img/banner1.png" alt="img">
+            </a>
+        </div>
+        <!-- logo search login -->
+        <section class="logo-search">
+            <div class="container" >
+                <div class="row g-3 align-items-center align-items-md-end py-2 position-relative" >
+                    <div class="col-4 order-2 order-md-1 col-md-2 text-center" >
+                        <img class="w-100" src="./assets/img/LOGO.png" alt="img">
+                    </div>
+                    <div class="d-none order-md-2 d-md-block col-md-6" >
+                        <div class="position-relative me-4" > 
+                            <form action="#">
+                                <input class="form-control" type="text" placeholder="جستجو">
+                                <div class="search-header-icon" >
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                            <path d="M3.20661 10.7467C3.20661 6.32665 6.49994 2.77332 10.8333 2.33999C14.9933 1.90665 18.9799 4.85332 19.8466 9.01332C20.2799 11.18 19.9333 13.1733 18.8066 15.08C18.5466 15.5133 18.6333 15.6867 18.9799 16.0333C20.6266 17.68 22.2733 19.3267 23.9199 20.9733C24.7866 21.84 24.5266 22.9667 23.5733 23.4C22.8799 23.66 22.3599 23.4 21.9266 22.88C20.2799 21.2333 18.6333 19.5867 16.9866 17.94C16.7266 17.5933 16.4666 17.5933 16.1199 17.8533C10.9199 20.8 4.67994 18.2 3.37994 12.48C3.20661 11.8733 3.11994 11.2667 3.20661 10.7467ZM11.5266 4.24665C7.97327 4.24665 5.11327 7.10665 5.11327 10.66C5.11327 14.1267 7.97327 17.0733 11.5266 17.0733C15.0799 17.0733 17.9399 14.2133 17.9399 10.66C17.9399 7.19332 15.0799 4.24665 11.5266 4.24665Z" fill="#949494"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4 mt-4 text-start order-3 order-md-2" >
+                        <div class="d-flex justify-content-center justify-content-md-end">
+                            <a class="btn-login-register" href="#">ورود | ثبت نام
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+                                    <path d="M9.75 12.5L13.5 9.5L9.75 6.5V8.75H3V10.25H9.75V12.5Z" fill="#6366F1"/>
+                                    <path d="M15 2.75H8.25C7.42275 2.75 6.75 3.42275 6.75 4.25V7.25H8.25V4.25H15V14.75H8.25V11.75H6.75V14.75C6.75 15.5773 7.42275 16.25 8.25 16.25H15C15.8273 16.25 16.5 15.5773 16.5 14.75V4.25C16.5 3.42275 15.8273 2.75 15 2.75Z" fill="#6366F1"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ----menu  -->
+                    <div class="col-4 col-md-12 order-1 order-md-4" >
+                        <nav class="navbar navbar-expand-lg ">
+                            <div class="container-fluid justify-content-center pe-0">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
+                                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle fw-bold pe-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        صفحه اصلی
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">آیتم یک</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم دو</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم سه</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        اینلایتی ها
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">آیتم یک</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم دو</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم سه</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">دوره ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">بلاگ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">سیستم آموزشی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">فروشگاه</a>
+                                </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
+    <!------------------------------------------------ course bblog -->
+    <section class="course-blog" >
+        <div class="container">
+            <div class="row">
+                <h3 class="fw-bold text-center py-4">آموزش های آکامی اینلایت</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="shadow-lg rounded-2">
+                        <div class="position-relative" >
+                            <img class="w-100" src="./assets/img/741.png" alt="img">
+                            <a href="#" class="bookmark" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                    <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-3 border-bottom">
+                            <h5 class="fw-bold">متاسونانس طلایی</h5>
+                            <p>متاسونانس</p>
+                            <div class="d-flex justify-content-end" >
+                                <a class="btn btn-primary rounded-2" href="#">شرکت در دوره</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between p-3">
+                            <div>
+                                <span class="fs-12 text-gray">۹۸% (۳۵۰۰)</span>
+                                <a href="#" class="like-icon">
+                                    <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.666 5.66675H10.9893L11.9252 2.86091C12.0935 2.35425 12.0085 1.79258 11.696 1.35925C11.3835 0.925915 10.8769 0.666748 10.3427 0.666748H8.99935C8.75185 0.666748 8.51768 0.776748 8.35852 0.966748L4.44185 5.66675H2.33268C1.41352 5.66675 0.666016 6.41425 0.666016 7.33341V14.8334C0.666016 15.7526 1.41352 16.5001 2.33268 16.5001H4.83268H13.4218C14.1127 16.5001 14.7394 16.0659 14.9827 15.4184L17.2802 9.29258C17.3152 9.19925 17.3327 9.10008 17.3327 9.00008V7.33341C17.3327 6.41425 16.5852 5.66675 15.666 5.66675ZM2.33268 7.33341H3.99935V14.8334H2.33268V7.33341ZM15.666 8.84925L13.4218 14.8334H5.66602V6.80175L9.38935 2.33341H10.3443L9.04268 6.23591C8.95685 6.49008 9.00018 6.76925 9.15685 6.98675C9.31352 7.20508 9.56518 7.33341 9.83268 7.33341H15.666V8.84925Z" fill="#9397AD"/>
+                                    </svg> 
+                                </a>
+                            </div>
+                            <div>
+                                <span class="fs-12 text-gray">۱۰۰ ساعت</span>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M9.99935 1.66675C5.40435 1.66675 1.66602 5.40508 1.66602 10.0001C1.66602 14.5951 5.40435 18.3334 9.99935 18.3334C14.5943 18.3334 18.3327 14.5951 18.3327 10.0001C18.3327 5.40508 14.5943 1.66675 9.99935 1.66675ZM9.99935 16.6667C6.32352 16.6667 3.33268 13.6759 3.33268 10.0001C3.33268 6.32425 6.32352 3.33341 9.99935 3.33341C13.6752 3.33341 16.666 6.32425 16.666 10.0001C16.666 13.6759 13.6752 16.6667 9.99935 16.6667Z" fill="#9397AD"/>
+                                        <path d="M10.8327 5.83325H9.16602V10.3449L11.9102 13.0891L13.0885 11.9108L10.8327 9.65492V5.83325Z" fill="#9397AD"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="text-black number-page" href="#">
+                        <span class="p-2"><</span>
+                    </a>
+                    <a class="text-black number-page" href="#">
+                        <span>1</span>
+                    </a>
+                    <a class="number-page " href="#">
+                        <span>2</span>
+                    </a>
+                    <a class="number-page-blue shadow"  href="#">
+                        <span>3</span>
+                    </a>
+                    <a class="text-black number-page" href="#">
+                        <span>4</span>
+                    </a>
+                    <a class="text-black number-page" href="#">
+                        <span class="p-2">></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------- select course -->
+    <section class="select-course my-md-5" >
+        <div class="container h-100">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <h4 class="fw-bold mb-0 title-select-course">برای اینکه بتونی بهترین دوره ای که به دردت میخوره را انتخاب کنی : </h4>
+                    <div class="d-flex justify-content-end me-3" >
+                        <a class="btn btn-primary rounded-2" href="#">انتخاب دوره</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------ faq -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row faq mt-4 mt-md-0 py-4 p-md-5 rounded-2 position-relative">
+                <div class="col-md-12 px-md-5">
+                    <div class="px-md-5" >
+                        <h3 class="text-white text-center fw-bold mb-4">سوالات متداول</h3>
+                        <div class="accordion-1 bg-white rounded-2 mb-3">
+                            <div class="accordion-item-1">
+                              <div class="accordion-header-1 py-3">
+                                <span class="icon-arrow-down">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M13.5775 7.74414L9.99997 11.3216L6.42247 7.74414L5.24414 8.92247L9.99997 13.6783L14.7558 8.92247L13.5775 7.74414Z" fill="#3E4265"/>
+                                    </svg>
+                                </span>
+                                <span class="me-4 fw-bold">
+                                     ۱ . تفاوت روح الهی ما و روح الهی بزرگان چیست؟
+                                </span>
+                              </div>
+                              <div class="accordion-content-1">
+                                <p class="text-justify">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                </p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-1 bg-white rounded-2 mb-3">
+                            <div class="accordion-item-1">
+                              <div class="accordion-header-1 py-3">
+                                <span class="icon-arrow-down">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M13.5775 7.74414L9.99997 11.3216L6.42247 7.74414L5.24414 8.92247L9.99997 13.6783L14.7558 8.92247L13.5775 7.74414Z" fill="#3E4265"/>
+                                    </svg>
+                                </span>
+                                <span class="me-4 fw-bold">
+                                     ۱ . تفاوت روح الهی ما و روح الهی بزرگان چیست؟
+                                </span>
+                              </div>
+                              <div class="accordion-content-1">
+                                    <div>
+                                        <audio class="w-100" controls src="./assets/farshid-mokhlesi.ogg"></audio>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-1 bg-white rounded-2 mb-3">
+                            <div class="accordion-item-1">
+                              <div class="accordion-header-1 py-3">
+                                <span class="icon-arrow-down">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M13.5775 7.74414L9.99997 11.3216L6.42247 7.74414L5.24414 8.92247L9.99997 13.6783L14.7558 8.92247L13.5775 7.74414Z" fill="#3E4265"/>
+                                    </svg>
+                                </span>
+                                <span class="me-4 fw-bold">
+                                     ۱ . تفاوت روح الهی ما و روح الهی بزرگان چیست؟
+                                </span>
+                              </div>
+                              <div class="accordion-content-1">
+                                <p class="text-justify">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                </p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-1 bg-white rounded-2 mb-3">
+                            <div class="accordion-item-1">
+                              <div class="accordion-header-1 py-3">
+                                <span class="icon-arrow-down">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M13.5775 7.74414L9.99997 11.3216L6.42247 7.74414L5.24414 8.92247L9.99997 13.6783L14.7558 8.92247L13.5775 7.74414Z" fill="#3E4265"/>
+                                    </svg>
+                                </span>
+                                <span class="me-4 fw-bold">
+                                     ۱ . تفاوت روح الهی ما و روح الهی بزرگان چیست؟
+                                </span>
+                              </div>
+                              <div class="accordion-content-1">
+                                    <div>
+                                        <audio class="w-100" controls src="./assets/farshid-mokhlesi.ogg"></audio>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-1 bg-white rounded-2 mb-3">
+                            <div class="accordion-item-1">
+                              <div class="accordion-header-1 py-3">
+                                <span class="icon-arrow-down">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M13.5775 7.74414L9.99997 11.3216L6.42247 7.74414L5.24414 8.92247L9.99997 13.6783L14.7558 8.92247L13.5775 7.74414Z" fill="#3E4265"/>
+                                    </svg>
+                                </span>
+                                <span class="me-4 fw-bold">
+                                     ۱ . تفاوت روح الهی ما و روح الهی بزرگان چیست؟
+                                </span>
+                              </div>
+                              <div class="accordion-content-1">
+                                    <div>
+                                        <audio class="w-100" controls src="./assets/farshid-mokhlesi.ogg"></audio>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-1" >
+                    <img src="./assets/img/shapes-1.png" alt="img">
+                </div>
+                <div class="shape-2" >
+                    <img src="./assets/img/shapes-2.png" alt="img">
+                </div>
+                <div class="shape-3" >
+                    <img src="./assets/img/shapes-3.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------------------------- footer -->
+    <footer class="py-5 mt-5">
+        <div class="container" >
+            <div class="row align-items-center" >
+                <div class="col-lg-4 text-center" >
+                    <ul>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-center px-md-5" >
+                    <div>
+                        <div><img src="./assets/img/fff.png" alt="img"></div>
+                        <p class="mt-3 fw-bold">اندیشه ای؛ تهی از حقارت و ترس و ناآگاهیقلبی؛ سرشار از شهود و حکمتو نوری؛ که روشنگر قلب و اندیشه است.این مسیر کودکانه در زمین نو است</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" >
+                    <h4 class="fw-bold text-center">اپلیکیشن موبایل ما را دانلود کنید
+                        نرم‌افزارهای مدیریت آموزش
+                    </h4>
+                    <div class="d-flex justify-content-between mt-5 app">
+                        <a href="#">
+                            <img src="./assets/img/axax.png" alt="img">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/rrrrrr.png" alt="img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+        <h6 class="fw-bold text-center mt-3" >تمامی حقوق برای اینلایت محفوظ است</h6>
+    </div>
+<script src="./assets/js/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/accordian.js"></script>
+</body>
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inlight</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/podcast.css">
+    <link rel="stylesheet" href="./assets/css/sw1.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <!-- --------------------------------------------- start header -->
+    <header>
+        <!---- header banner -->
+        <div class="header-banner" >
+            <a href="#">
+                <img class="w-100 d-block adv-top-header" src="./assets/img/banner1.png" alt="img">
+            </a>
+        </div>
+        <!-- logo search login -->
+        <section class="logo-search">
+            <div class="container" >
+                <div class="row g-3 align-items-center align-items-md-end py-2 position-relative" >
+                    <div class="col-4 order-2 order-md-1 col-md-2 text-center" >
+                        <img class="w-100" src="./assets/img/LOGO.png" alt="img">
+                    </div>
+                    <div class="d-none order-md-2 d-md-block col-md-6" >
+                        <div class="position-relative me-4" > 
+                            <form action="#">
+                                <input class="form-control" type="text" placeholder="جستجو">
+                                <div class="search-header-icon" >
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                            <path d="M3.20661 10.7467C3.20661 6.32665 6.49994 2.77332 10.8333 2.33999C14.9933 1.90665 18.9799 4.85332 19.8466 9.01332C20.2799 11.18 19.9333 13.1733 18.8066 15.08C18.5466 15.5133 18.6333 15.6867 18.9799 16.0333C20.6266 17.68 22.2733 19.3267 23.9199 20.9733C24.7866 21.84 24.5266 22.9667 23.5733 23.4C22.8799 23.66 22.3599 23.4 21.9266 22.88C20.2799 21.2333 18.6333 19.5867 16.9866 17.94C16.7266 17.5933 16.4666 17.5933 16.1199 17.8533C10.9199 20.8 4.67994 18.2 3.37994 12.48C3.20661 11.8733 3.11994 11.2667 3.20661 10.7467ZM11.5266 4.24665C7.97327 4.24665 5.11327 7.10665 5.11327 10.66C5.11327 14.1267 7.97327 17.0733 11.5266 17.0733C15.0799 17.0733 17.9399 14.2133 17.9399 10.66C17.9399 7.19332 15.0799 4.24665 11.5266 4.24665Z" fill="#949494"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4 mt-4 text-start order-3 order-md-2" >
+                        <div class="d-flex justify-content-center justify-content-md-end">
+                            <a class="btn-login-register" href="#">ورود | ثبت نام
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+                                    <path d="M9.75 12.5L13.5 9.5L9.75 6.5V8.75H3V10.25H9.75V12.5Z" fill="#6366F1"/>
+                                    <path d="M15 2.75H8.25C7.42275 2.75 6.75 3.42275 6.75 4.25V7.25H8.25V4.25H15V14.75H8.25V11.75H6.75V14.75C6.75 15.5773 7.42275 16.25 8.25 16.25H15C15.8273 16.25 16.5 15.5773 16.5 14.75V4.25C16.5 3.42275 15.8273 2.75 15 2.75Z" fill="#6366F1"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ----menu  -->
+                    <div class="col-4 col-md-12 order-1 order-md-4" >
+                        <nav class="navbar navbar-expand-lg ">
+                            <div class="container-fluid justify-content-center pe-0">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
+                                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle fw-bold pe-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        صفحه اصلی
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">آیتم یک</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم دو</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم سه</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        اینلایتی ها
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">آیتم یک</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم دو</a></li>
+                                        <li><a class="dropdown-item" href="#">آیتم سه</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">دوره ها</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">بلاگ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">سیستم آموزشی</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="#">فروشگاه</a>
+                                </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
+    <!-- ----------------------------------------------podcast page -->
+    <section class="podcast-page mt-5" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 px-md-5">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <path d="M4 12.5001V10.7931C4 6.35106 7.479 2.63206 11.755 2.50306C13.959 2.45206 16.006 3.23906 17.571 4.75906C19.138 6.27906 20 8.31806 20 10.5001V12.5001C21.103 12.5001 22 13.3971 22 14.5001V18.5001C22 19.6031 21.103 20.5001 20 20.5001H18V10.5001C18 8.86306 17.354 7.33406 16.179 6.19406C15.005 5.05406 13.444 4.45506 11.816 4.50306C8.608 4.59906 6 7.42106 6 10.7931V20.5001H4C2.897 20.5001 2 19.6031 2 18.5001V14.5001C2 13.3971 2.897 12.5001 4 12.5001Z" fill="url(#paint0_linear_162_5193)"/>
+                            <path d="M17 12.5001H15V20.5001H17V12.5001ZM9 12.5001H7V20.5001H9V12.5001Z" fill="url(#paint1_linear_162_5193)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_162_5193" x1="22" y1="11.5435" x2="2" y2="11.5435" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6366F1"/>
+                            <stop offset="0.5" stop-color="#8B5CF6"/>
+                            <stop offset="1" stop-color="#D946EF"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_162_5193" x1="22" y1="11.5435" x2="2" y2="11.5435" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#6366F1"/>
+                            <stop offset="0.5" stop-color="#8B5CF6"/>
+                            <stop offset="1" stop-color="#D946EF"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                        <span class="gray-900">پادکست</span>
+                    </div>
+                    <h3 class="fw-bold">پادکست چله شهد و شکر قسمت اول</h3>
+                    <div class="d-flex justify-content-between mt-2 ms-md-5 py-5">
+                        <div class="d-flex">
+                            <a class="d-block me-2" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                                    <path d="M2.66683 9.49992C3.2735 9.49992 3.82216 9.26125 4.23816 8.87992L8.4115 11.2646C8.3655 11.4479 8.3335 11.6359 8.3335 11.8333C8.3335 13.1199 9.38016 14.1666 10.6668 14.1666C11.9535 14.1666 13.0002 13.1199 13.0002 11.8333C13.0002 10.5466 11.9535 9.49992 10.6668 9.49992C10.0602 9.49992 9.5115 9.73859 9.0955 10.1199L4.92216 7.73525C4.96416 7.57059 4.99083 7.40059 4.99416 7.22325L9.09483 4.87992C9.5115 5.26125 10.0602 5.49992 10.6668 5.49992C11.9535 5.49992 13.0002 4.45325 13.0002 3.16659C13.0002 1.87992 11.9535 0.833252 10.6668 0.833252C9.38016 0.833252 8.3335 1.87992 8.3335 3.16659C8.3335 3.36392 8.3655 3.55192 8.4115 3.73525L4.62216 5.90125C4.2055 5.25992 3.48616 4.83325 2.66683 4.83325C1.38016 4.83325 0.333496 5.87992 0.333496 7.16659C0.333496 8.45325 1.38016 9.49992 2.66683 9.49992ZM10.6668 10.8333C11.2182 10.8333 11.6668 11.2819 11.6668 11.8333C11.6668 12.3846 11.2182 12.8333 10.6668 12.8333C10.1155 12.8333 9.66683 12.3846 9.66683 11.8333C9.66683 11.2819 10.1155 10.8333 10.6668 10.8333ZM10.6668 2.16659C11.2182 2.16659 11.6668 2.61525 11.6668 3.16659C11.6668 3.71792 11.2182 4.16659 10.6668 4.16659C10.1155 4.16659 9.66683 3.71792 9.66683 3.16659C9.66683 2.61525 10.1155 2.16659 10.6668 2.16659ZM2.66683 6.16659C3.21816 6.16659 3.66683 6.61525 3.66683 7.16659C3.66683 7.71792 3.21816 8.16659 2.66683 8.16659C2.1155 8.16659 1.66683 7.71792 1.66683 7.16659C1.66683 6.61525 2.1155 6.16659 2.66683 6.16659Z" fill="#9397AD"/>
+                                </svg>
+                                <span class="number-popular-posts">۴</span>
+                            </a>
+                            <a class="d-block me-2" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                    <path d="M12.3335 0.833252H1.66683C0.931496 0.833252 0.333496 1.43125 0.333496 2.16659V14.1666L3.88883 11.4999H12.3335C13.0688 11.4999 13.6668 10.9019 13.6668 10.1666V2.16659C13.6668 1.43125 13.0688 0.833252 12.3335 0.833252ZM12.3335 10.1666H3.44483L1.66683 11.4999V2.16659H12.3335V10.1666Z" fill="#9397AD"/>
+                                </svg>
+                                <span class="number-popular-posts">۴</span>
+                            </a>
+                            <a class="d-block me-2" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                    <path d="M12.3335 4.83325H8.59216L9.34083 2.58859C9.4755 2.18325 9.4075 1.73392 9.1575 1.38725C8.9075 1.04059 8.50216 0.833252 8.07483 0.833252H7.00016C6.80216 0.833252 6.61483 0.921252 6.4875 1.07325L3.35416 4.83325H1.66683C0.931496 4.83325 0.333496 5.43125 0.333496 6.16659V12.1666C0.333496 12.9019 0.931496 13.4999 1.66683 13.4999H3.66683H10.5382C11.0908 13.4999 11.5922 13.1526 11.7868 12.6346L13.6248 7.73392C13.6528 7.65925 13.6668 7.57992 13.6668 7.49992V6.16659C13.6668 5.43125 13.0688 4.83325 12.3335 4.83325ZM1.66683 6.16659H3.00016V12.1666H1.66683V6.16659ZM12.3335 7.37925L10.5382 12.1666H4.3335V5.74125L7.31216 2.16659H8.07616L7.03483 5.28859C6.96616 5.49192 7.00083 5.71525 7.12616 5.88925C7.2515 6.06392 7.45283 6.16659 7.66683 6.16659H12.3335V7.37925Z" fill="#9397AD"/>
+                                </svg>
+                                <span class="number-popular-posts">۴</span>
+                            </a>
+                        </div>
+                        <div class="d-flex">
+                            <div class="me-2">
+                                <span class="number-popular-posts">۱۳ تیر ۱۴۰۲</span>
+                            </div>
+                            <div class="me-2">
+                                <span class="text-primary chelle rounded-2 fw-bold px-md-2" >چله</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gray-700">گنجی پنهان بودم، نوری در پستوی خانه و طریقتی روشن و مستقیم که در تاریخ دفن بود.</p>
+                    <p class="gray-700">روزی در دم عیسی آمدم، روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهروردی جلوه گری کردم و امروز ساده و بی پیرایه در نور جلوه نمودم</p>
+                    <p class="gray-700">امروزمان دگرگونی فرزندان آدم با زیستن من نورانی رسیده است. من اندیشه شما را پاک می کنم، رنج ها و خاطرات ناگوار را به تجربه ای پند آموز تبدیل می کنم،در من زندگی کن، با من گام بردار و د</p>
+                </div>
+                <div class="col-md-7">
+                    <div>
+                        <img class="w-100" src="./assets/img/f4.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------- player podcast -->
+    <section class="player-podcast" >
+        <div class="container">
+            <div class="row">
+                <div class="podcast mt-5">
+                    <h3 class="podcast__episode_title">پادکست شهد و شکر</h3>
+                    <h5 class="podcast__title">
+                        <span class="fw-bold">قسمت اول</span>
+                        <i class="me-2">علی مقدم</i>
+                    </h5>
+                    <div class="podcast__meta">
+                        <audio controls width="100%">
+                            <source src="./assets/farshid-mokhlesi.ogg">
+                            Your browser does not support the audio tag.
+                        </audio>
+                        <a href="#"  class="artwork ">
+                            <img src="./assets/img/Rectangle 18.png" alt="img-podcast">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row " >
+                <div class="col-md-12 p-0" >
+                    <div class="d-flex justify-content-end ms-3 ms-md-0 justify-content-md-end my-3">
+                        <a class="d-flex d-block border p-2 rounded-2" href="#">
+                            <span class="bg-primary text-white px-md-2 d-block rounded-2" >18</span>
+                            <span class="mx-2 text-black">دوست داشتم</span>
+                            <svg  width="20" height="19" viewBox="0 0 20 19" fill="none">
+                                <path d="M18 6H12.388L13.511 2.633C13.713 2.025 13.611 1.351 13.236 0.831C12.861 0.311 12.253 0 11.612 0H10C9.703 0 9.422 0.132 9.231 0.36L4.531 6H2C0.897 6 0 6.897 0 8V17C0 18.103 0.897 19 2 19H5H15.307C16.136 19 16.888 18.479 17.18 17.702L19.937 10.351C19.979 10.239 20 10.12 20 10V8C20 6.897 19.103 6 18 6ZM2 8H4V17H2V8ZM18 9.819L15.307 17H6V7.362L10.468 2H11.614L10.052 6.683C9.949 6.988 10.001 7.323 10.189 7.584C10.377 7.846 10.679 8 11 8H18V9.819Z" fill="#3E4265"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 pb-5">
+                <h6 class="fw-bold py-3">زمان بندی</h6>
+                <a class="text-black mb-2" href="#">
+                    <span>0:05:12</span>
+                    <span>روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهرو</span>
+                </a>
+                <a class="text-black mb-2" href="#">
+                    <span class="text-blue">00:28:19</span>
+                    <span>روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهرو</span>
+                </a>
+                <a class="text-black mb-2" href="#">
+                    <span>00:45:37</span>
+                    <span>روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهرو</span>
+                </a>
+                <a class="text-black mb-2" href="#">
+                    <span>00:56:04</span>
+                    <span>روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهرو</span>
+                </a>
+                <a class="text-black mb-2" href="#">
+                    <span>01:32:17</span>
+                    <span>روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهرو</span>
+                </a>
+                <a class="text-black mb-2" href="#">
+                    <span>01:50:43</span>
+                    <span>روزی در سکوت بودا، باری در اندیشه مانی و زمانی در حکمت سهرو</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------ mission inlight -->
+    <section class="mission-inlight-podcast mt-0 mt-md-5 pt-5" >
+            <div class="container-fluid d-flex justify-content-center p-0" >
+                <div class="row w-100 w-moile-100" >
+                    <div class="items-inlight-story rounded-3 p-3 p-md-5 container">
+                        <h3 class="fw-bold mb-3 pt-3 pt-md-0" >رسالت اینلایت</h3>
+                        <p>قرن نور و روشنایی آغاز شد.چشم ها گشود و جهل و خرافات از نیکی و راستی به روشنی قابل تمیز است.انسان ها آگاهانه در ظلمت اسیر می‌شوند و با چشمان باز در چاه افکنده می‌شوند، چون نور جهان را در بر گرفته است.بصیرت یا روشن بینی آرزوی حکمای پیشین بود و امروز درس اول فرزندانمان است. به نیکی می بینند، می فهمند و راه می جویند و این آغاز ظهور نور است در آسمان دل هاآکادمی اینلایت با رسالت مطالعه و پژوهش در فرهنگ اشراقی ایران برپاشده و سرگرم مطالعه و پژوهش در میان کتب حکمای پیشین و تبدیل آن به حرف‌هایی برای امروزی‌هاست.در گذشته انسان معنوی نور را درک می‌کرد، نیت ظلمانی را از معنوی تشخیص می داد.طریقت الهی را سرشار از نور می دید و حتی نور انسان های اهل دل را به نیکی درک می‌کرد.حکمای پیشین با قلب می‌فهمیدند، ادراک داشتند و راه درست را با دل پیدا می‌کردندما فهمیدیم که مطالبی مانند:بصیرت، حکمت دل، نور الهیمفاهیمی انتزاعی، حنایی و شاعرانه نیستند.همه و همه حقیقت قابل مشاهده و اندازه گیری انسان سالک هستند.با این اندیشه به بررسی آثار به جای مانده از عرفای واصلین درگاه دوست و سالکین سینه سوخته پرداختیم، به رازی رسیدیم و اینلایت آغاز شد.</p>
+                        <div class="d-flex justify-content-md-end">
+                            <span>علی مقدم</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ---------------------------------------------------comment -->
+    <section class="comment my-5" >
+        <div class="container d-flex justify-content-center">
+            <div class="row w-75 w-moile-100">
+                <div>
+                    <h4 class="fw-bold " >۵ کامنت</h4>
+                    <div class="border-bottom mt-4">
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <img class="rounded-5" width="60" src="./assets/img/s5.png" alt="img">
+                                </div>
+                                <div class="me-2" >
+                                    <a class="link-text-decoration-line" href="#">نازنین قیاسی</a>
+                                    <p class="mb-0 date-gray">۱۳ تیر ۱۴۰۲</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <span class="text-black">ریپلای</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M8.33366 15C9.87199 15 11.2862 14.4708 12.4145 13.5933L16.0778 17.2567L17.2562 16.0783L13.5928 12.415C14.4712 11.2858 15.0003 9.87166 15.0003 8.33332C15.0003 4.65749 12.0095 1.66666 8.33366 1.66666C4.65783 1.66666 1.66699 4.65749 1.66699 8.33332C1.66699 12.0092 4.65783 15 8.33366 15ZM8.33366 3.33332C11.0912 3.33332 13.3337 5.57582 13.3337 8.33332C13.3337 11.0908 11.0912 13.3333 8.33366 13.3333C5.57616 13.3333 3.33366 11.0908 3.33366 8.33332C3.33366 5.57582 5.57616 3.33332 8.33366 3.33332Z" fill="#6366F1"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text-conent-blog-single mt-3">
+                            گروه سوم، فرم هایی است که بین دو گروه قبلی جا می گرد، یعنی نه پویایی حرکت و کار در گروه یک را داراست و نه آرامش و معنویت گروه دوم، بلکه به گونه های واجد خصایص هر دو گروه است. فرم های این گروه از حرکت، از ناهمسانی و غیر موازی بودن دستها حاصل می شود و در عین بیان فعالیت، برگرفته از طبیعت و عوامل زیستی است.
+                        </p>
+                    </div>
+                    <div class="border-bottom mt-4">
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <img class="rounded-5" width="60" src="./assets/img/s5.png" alt="img">
+                                </div>
+                                <div class="me-2" >
+                                    <a class="link-text-decoration-line" href="#">نازنین قیاسی</a>
+                                    <p class="mb-0 date-gray">۱۳ تیر ۱۴۰۲</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <span class="text-black">ریپلای</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M8.33366 15C9.87199 15 11.2862 14.4708 12.4145 13.5933L16.0778 17.2567L17.2562 16.0783L13.5928 12.415C14.4712 11.2858 15.0003 9.87166 15.0003 8.33332C15.0003 4.65749 12.0095 1.66666 8.33366 1.66666C4.65783 1.66666 1.66699 4.65749 1.66699 8.33332C1.66699 12.0092 4.65783 15 8.33366 15ZM8.33366 3.33332C11.0912 3.33332 13.3337 5.57582 13.3337 8.33332C13.3337 11.0908 11.0912 13.3333 8.33366 13.3333C5.57616 13.3333 3.33366 11.0908 3.33366 8.33332C3.33366 5.57582 5.57616 3.33332 8.33366 3.33332Z" fill="#6366F1"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text-conent-blog-single mt-3">
+                            گروه سوم، فرم هایی است که بین دو گروه قبلی جا می گرد، یعنی نه پویایی حرکت و کار در گروه یک را داراست و نه آرامش و معنویت گروه دوم، بلکه به گونه های واجد خصایص هر دو گروه است. فرم های این گروه از حرکت، از ناهمسانی و غیر موازی بودن دستها حاصل می شود و در عین بیان فعالیت، برگرفته از طبیعت و عوامل زیستی است.
+                        </p>
+                        <div class="comment-replay border-end pe-5" >
+                            <div class="d-flex justify-content-between align-items-center ">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <img class="rounded-5" width="60" src="./assets/img/s5.png" alt="img">
+                                    </div>
+                                    <div class="me-2" >
+                                        <a class="link-text-decoration-line" href="#">نازنین قیاسی</a>
+                                        <p class="mb-0 date-gray">۱۳ تیر ۱۴۰۲</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <span class="text-black">ریپلای</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M8.33366 15C9.87199 15 11.2862 14.4708 12.4145 13.5933L16.0778 17.2567L17.2562 16.0783L13.5928 12.415C14.4712 11.2858 15.0003 9.87166 15.0003 8.33332C15.0003 4.65749 12.0095 1.66666 8.33366 1.66666C4.65783 1.66666 1.66699 4.65749 1.66699 8.33332C1.66699 12.0092 4.65783 15 8.33366 15ZM8.33366 3.33332C11.0912 3.33332 13.3337 5.57582 13.3337 8.33332C13.3337 11.0908 11.0912 13.3333 8.33366 13.3333C5.57616 13.3333 3.33366 11.0908 3.33366 8.33332C3.33366 5.57582 5.57616 3.33332 8.33366 3.33332Z" fill="#6366F1"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-conent-blog-single text-primary mt-3">
+                                گروه سوم، فرم هایی است که بین دو گروه قبلی جا می گرد، یعنی نه پویایی حرکت و کار در گروه یک را داراست و نه آرامش و معنویت گروه دوم، بلکه به گونه های واجد خصایص هر دو گروه است. فرم های این گروه از حرکت، از ناهمسانی و غیر موازی بودن دستها حاصل می شود و در عین بیان فعالیت، برگرفته از طبیعت و عوامل زیستی است.
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" mt-4">
+                        <div class="d-flex justify-content-between align-items-center ">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <img class="rounded-5" width="60" src="./assets/img/s5.png" alt="img">
+                                </div>
+                                <div class="me-2" >
+                                    <a class="link-text-decoration-line" href="#">نازنین قیاسی</a>
+                                    <p class="mb-0 date-gray">۱۳ تیر ۱۴۰۲</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <span class="text-black">ریپلای</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M8.33366 15C9.87199 15 11.2862 14.4708 12.4145 13.5933L16.0778 17.2567L17.2562 16.0783L13.5928 12.415C14.4712 11.2858 15.0003 9.87166 15.0003 8.33332C15.0003 4.65749 12.0095 1.66666 8.33366 1.66666C4.65783 1.66666 1.66699 4.65749 1.66699 8.33332C1.66699 12.0092 4.65783 15 8.33366 15ZM8.33366 3.33332C11.0912 3.33332 13.3337 5.57582 13.3337 8.33332C13.3337 11.0908 11.0912 13.3333 8.33366 13.3333C5.57616 13.3333 3.33366 11.0908 3.33366 8.33332C3.33366 5.57582 5.57616 3.33332 8.33366 3.33332Z" fill="#6366F1"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text-conent-blog-single mt-3">
+                            گروه سوم، فرم هایی است که بین دو گروه قبلی جا می گرد، یعنی نه پویایی حرکت و کار در گروه یک را داراست و نه آرامش و معنویت گروه دوم، بلکه به گونه های واجد خصایص هر دو گروه است. فرم های این گروه از حرکت، از ناهمسانی و غیر موازی بودن دستها حاصل می شود و در عین بیان فعالیت، برگرفته از طبیعت و عوامل زیستی است.
+                        </p>
+                    </div>
+                </div>
+                <div class="form-comment p-3 p-md-5 mt-5">
+                    <form action="#">
+                        <div class="row" >
+                            <h4>کامنت بگذارید</h4>
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label fw-bold">نام</label>
+                                <input type="text" class="form-control" >
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label fw-bold">ایمیل</label>
+                                <input type="email" class="form-control" >
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label for="email" class="form-label fw-bold">کامنت</label>
+                                <textarea class="form-control"  cols="30" rows="5" placeholder="متن کامنت"></textarea>
+                            </div>
+                            <div class="form-check d-flex">
+                                <label class="form-check-label" for="gridCheck1">
+                                    مشخصات من برای کامنت بعدی ذخیره شود
+                                </label>
+                                <input class="form-check-input me-2" type="checkbox" id="gridCheck1">
+                            </div>
+                            <div class="mt-4">
+                                <button class="btn-submit-comment py-2 px-4 rounded-2 shadow border-0" type="submit" >پست کامنت</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------- slider article  -->
+    <section class="slider-article" >
+        <div class="container overflow-hidden">
+            <div class="row mt-5 position-relative" >
+                <div class="col-md-12 d-flex align-items-center mb-3 justify-content-between" >
+                    <h4 class="fw-bold mb-0" >مقالات مشابه</h4>
+                    <a class="border d-block rounded-2 p-2 align-items-center" href="#">
+                        <span>تمامی مقالات</span>
+                        <span class="icon-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M11.293 17.293L12.707 18.707L19.414 12L12.707 5.29297L11.293 6.70697L15.586 11H6V13H15.586L11.293 17.293Z" fill="#6366F1"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div dir="ltr" class="col-md-12 position-relative" >
+                    <div class="swiper-blog-article pb-5">
+                        <div class="swiper-wrapper" >
+                            <div dir="rtl" class="swiper-slide position-relative bg-white shadow">
+                                <a class="position-relative d-block" href="#">
+                                    <img class="w-100 rounded-2" src="./assets/img/63.png" alt="img">
+                                    <div class="bookmark-last-article">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                        </svg>
+                                    </div>
+                                    <div class="p-3">
+                                        <div class=" d-flex justify-content-between" >
+                                            <span class="date-item-last-article">۱۳ تیر ۱۴۰۲</span>
+                                            <span class="caption-item-last-article text-black ">زندگی</span>
+                                        </div>
+                                        <h5 class="title-item-last-article py-3 border-bottom">صلح درونی</h5>
+                                        <div class="img-user-item-last-article d-flex align-items-center">
+                                            <img src="./assets/img/xs.png" alt="img">
+                                            <a class="link-text-decoration-line me-2" href="#">نازنین قیاسی</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div dir="rtl" class="swiper-slide position-relative bg-white shadow">
+                                <a class="position-relative d-block" href="#">
+                                    <img class="w-100 rounded-2" src="./assets/img/63.png" alt="img">
+                                    <div class="bookmark-last-article">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                        </svg>
+                                    </div>
+                                    <div class="p-3">
+                                        <div class=" d-flex justify-content-between" >
+                                            <span class="date-item-last-article">۱۳ تیر ۱۴۰۲</span>
+                                            <span class="caption-item-last-article text-black ">زندگی</span>
+                                        </div>
+                                        <h5 class="title-item-last-article py-3 border-bottom">صلح درونی</h5>
+                                        <div class="img-user-item-last-article d-flex align-items-center">
+                                            <img src="./assets/img/xs.png" alt="img">
+                                            <a class="link-text-decoration-line me-2" href="#">نازنین قیاسی</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div dir="rtl" class="swiper-slide position-relative bg-white shadow">
+                                <a class="position-relative d-block" href="#">
+                                    <img class="w-100 rounded-2" src="./assets/img/63.png" alt="img">
+                                    <div class="bookmark-last-article">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                        </svg>
+                                    </div>
+                                    <div class="p-3">
+                                        <div class=" d-flex justify-content-between" >
+                                            <span class="date-item-last-article">۱۳ تیر ۱۴۰۲</span>
+                                            <span class="caption-item-last-article text-black ">زندگی</span>
+                                        </div>
+                                        <h5 class="title-item-last-article py-3 border-bottom">صلح درونی</h5>
+                                        <div class="img-user-item-last-article d-flex align-items-center">
+                                            <img src="./assets/img/xs.png" alt="img">
+                                            <a class="link-text-decoration-line me-2" href="#">نازنین قیاسی</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div dir="rtl" class="swiper-slide position-relative bg-white shadow">
+                                <a class="position-relative d-block" href="#">
+                                    <img class="w-100 rounded-2" src="./assets/img/63.png" alt="img">
+                                    <div class="bookmark-last-article">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                            <path d="M13.5 1.5H4.5C3.67275 1.5 3 2.17275 3 3V6.957V7.5V16.5L9 13.071L15 16.5V7.5V6.957V3C15 2.17275 14.3273 1.5 13.5 1.5ZM13.5 13.9147L9 11.3438L4.5 13.9147V7.5V6.957V3H13.5V6.957V7.5V13.9147Z" fill="#3E4265"/>
+                                        </svg>
+                                    </div>
+                                    <div class="p-3">
+                                        <div class=" d-flex justify-content-between" >
+                                            <span class="date-item-last-article">۱۳ تیر ۱۴۰۲</span>
+                                            <span class="caption-item-last-article text-black ">زندگی</span>
+                                        </div>
+                                        <h5 class="title-item-last-article py-3 border-bottom">صلح درونی</h5>
+                                        <div class="img-user-item-last-article d-flex align-items-center">
+                                            <img src="./assets/img/xs.png" alt="img">
+                                            <a class="link-text-decoration-line me-2" href="#">نازنین قیاسی</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------------------------- footer -->
+    <footer class="py-5 mt-5">
+        <div class="container" >
+            <div class="row align-items-center" >
+                <div class="col-lg-4 text-center" >
+                    <ul>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                        <li><a class="nav-link fw-bold fs-5" href="#">لینک های مهم</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 text-center px-md-5" >
+                    <div>
+                        <div><img src="./assets/img/fff.png" alt="img"></div>
+                        <p class="mt-3 fw-bold">اندیشه ای؛ تهی از حقارت و ترس و ناآگاهیقلبی؛ سرشار از شهود و حکمتو نوری؛ که روشنگر قلب و اندیشه است.این مسیر کودکانه در زمین نو است</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" >
+                    <h4 class="fw-bold text-center">اپلیکیشن موبایل ما را دانلود کنید
+                        نرم‌افزارهای مدیریت آموزش
+                    </h4>
+                    <div class="d-flex justify-content-between mt-5 app">
+                        <a href="#">
+                            <img src="./assets/img/axax.png" alt="img">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/rrrrrr.png" alt="img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+        <h6 class="fw-bold text-center mt-3" >تمامی حقوق برای اینلایت محفوظ است</h6>
+    </div>
+<script src="./assets/js/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/sw.js"></script>
+<script src="./assets/js/podcast.js"></script>
+<script src="./assets/js/blog-single.js" ></script>
+<script src="./assets/js/index-js.js" ></script>
+
+</body>
+</html>
